@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using CRMMVC.Models;
+using Microsoft.EntityFrameworkCore;
+using CRMMVC.Data;
 
 namespace CRMMVC
 {
@@ -24,6 +27,12 @@ namespace CRMMVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<ApplicationContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("ApplicationContext")));
+
+            services.AddDbContext<CRMMVCContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("CRMMVCContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
