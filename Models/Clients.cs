@@ -9,13 +9,15 @@ namespace CRMMVC.Models
     public class Clients
     {
         public int Id { get; set; }
-        public string first_name { get; set; }
-        public string second_name { get; set; }
-        public string middle_name { get; set; }
-        [Phone] public string phone_number { get; set; }
-        [EmailAddress] public string email { get; set; }
-        public string gender { get; set; }
-        public Nullable<int> age { get; set; }
-        public string note { get; set; }
+
+
+        [Required] [Display(Name = "Имя")]              public string first_name { get; set; }
+        [Required] [Display(Name = "Фамилия")]          public string second_name { get; set; }
+        [Display(Name = "Отчество")]                    public string middle_name { get; set; }
+        [Phone] [Display(Name = "Номер телефона")]      public string phone_number { get; set; }
+        [EmailAddress] [Display(Name = "Email")]        public string email { get; set; }
+        [Display(Name = "Пол")]                         public string gender { get; set; }
+        [Display(Name = "Возраст")]                     public Nullable<int> age { get; set; }
+        [Display(Name = "Примечание")]                  public string note { get; set; }
     }
 }
