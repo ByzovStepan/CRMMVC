@@ -15,5 +15,15 @@ namespace CRMMVC.Data
         }
 
         public DbSet<CRMMVC.Models.Clients> Clients { get; set; }
+        /*
+        internal void Add(Clients clients)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal Task SaveChangesAsync()
+        {
+            throw new NotImplementedException();
+        }*/
     }
 }

@@ -12,8 +12,6 @@ C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\CRMMVC.pdb
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\CRMMVC.Views.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\CRMMVC.Views.pdb
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
@@ -27,9 +25,7 @@ C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.En
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
@@ -115,13 +111,6 @@ C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\ru\Microsoft
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\obj\Debug\netcoreapp3.1\CRMMVC.csprojAssemblyReference.cache
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\obj\Debug\netcoreapp3.1\CRMMVC.AssemblyInfoInputs.cache
@@ -156,3 +145,14 @@ C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\obj\Debug\netcoreapp3.1\staticwebass
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\obj\Debug\netcoreapp3.1\CRMMVC.dll
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\obj\Debug\netcoreapp3.1\CRMMVC.pdb
 C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\obj\Debug\netcoreapp3.1\CRMMVC.genruntimeconfig.cache
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\byzov\source\repos\ByzovCRM\CRMMVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll

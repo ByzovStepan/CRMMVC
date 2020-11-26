@@ -28,8 +28,8 @@ namespace CRMMVC
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<ApplicationContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("ApplicationContext")));
+            /*services.AddDbContext<ApplicationContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("ApplicationContext")));*/
 
             services.AddDbContext<CRMMVCContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("CRMMVCContext")));
