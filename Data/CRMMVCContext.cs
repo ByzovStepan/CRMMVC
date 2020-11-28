@@ -1,19 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using CRMMVC.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
+
+/* FOR MIGRATIONS:
+ * Add-Migration -context CRMMVCContext
+ * Update-Database -context CRMMVCContext
+ */
+
 
 namespace CRMMVC.Data
 {
-    public class CRMMVCContext : DbContext
+    public class CRMMVCContext : IdentityDbContext<Users>
     {
-        public CRMMVCContext (DbContextOptions<CRMMVCContext> options)
+        public CRMMVCContext(DbContextOptions<CRMMVCContext> options)
             : base(options)
         {
+            //Database.EnsureCreated();
         }
-
+        public DbSet<CRMMVC.Models.Posts> Posts { get; set; }
+        public DbSet<CRMMVC.Models.Departments> Departments { get; set; }
+        override public DbSet<CRMMVC.Models.Users> Users { get; set; }
         public DbSet<CRMMVC.Models.Clients> Clients { get; set; }
         /*
         internal void Add(Clients clients)

@@ -1,16 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using CRMMVC.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using CRMMVC.Models;
-using Microsoft.EntityFrameworkCore;
-using CRMMVC.Data;
 
 namespace CRMMVC
 {
@@ -26,13 +21,18 @@ namespace CRMMVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            
 
             /*services.AddDbContext<ApplicationContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("ApplicationContext")));*/
 
             services.AddDbContext<CRMMVCContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("CRMMVCContext")));
+
+            services.AddIdentity<Models.Users, IdentityRole>()
+                .AddEntityFrameworkStores<CRMMVCContext>();
+
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +53,7 @@ namespace CRMMVC
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
